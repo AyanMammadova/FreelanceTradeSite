@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{border: none;}
+.arrow{font-size: .6em; font-weight: bold;}
+.bold{font-weight: bold; text-decoration: none;}
+.bgwhite{background-color: white;}
+.bgyellow{background-color: #F3AF2C;}
+.txtwhite{color: white;}
+.txtgray{color: gray    ;}
+.fa-quote-right{color: white !important;}
+.txtblue{color: #2563EB; padding: 10px 0;}
+.fa-solid{font-weight: bold; color: red;}
+.em13{font-size: 1.3em;}
+.em35{font-size: 3.5em;}
+.em3{font-size: 3em;}
+.em23{font-size: 2.3em;}
+.em24{font-size: 1,5em;}
+.em2{font-size: 1.5em;}
+.em18{font-size: 1.8em;}
+.width100{width:100% ;}
+header{     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/abouthbg.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px 0 0 0;
+} 
+.navbar-nav>a{
+    color: white;
+}
+#headercontent{
+    margin: 0 5% ;
+}
+
+#hcontext{
+   padding:5% 20% 5% 7% ;
+}
+#h11{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 2em;
+}
+#hcontext>button{
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin: 0 0 100px;
+}
+#abouthr{
+    width: 100px;
+    border: none;
+    border-top: 2px solid white;
+    opacity: 1;
+    margin:0 30px ;
+}
+.hrs{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top: 2px solid #2c436b;
+    background-color: #E6F1FE;
+    width: 95%;
+    margin: auto;
+}
+/* ASECTION1 */
+#section12{
+    background-color: #E6F1FE;
+}
+#arow1{
+    padding:80px  30px;
+}
+#arow1 div{
+   margin-right: 20px;
+}
+/* ASECTION2 */
+#arow2{
+    width: 95%;
+    margin: auto;
+    padding: 50px 30px;
+}
+.acol2{
+    margin-right: 90px;
+}
+
+/* ASECTION3 */
+#asection3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url('img/aboutphone.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    padding: 30px;
+}
+#hr3{
+    margin: 15px 0;
+    border: none;
+    border-top: 2px solid white;
+    opacity: 1;
+    width: 60px;
+}
+/* ASECTION4 */
+#asection4,#asection5{
+    width:90%;
+    margin:100px auto;
+    background-color: white;
+}
+/* ASECTION5 */
+#text5{
+    padding: 0 20px 0 0 ;
+}
+#imgs5{
+    align-items: center;
+    
+    display: flex;
+}
+#img52{
+    height: 95%;
+        width: 50%;
+}
+
+/* SECTION7 */
+
+#section7{ 
+    background-color: #004CD6;
+}
+#context7{
+    text-align: center;
+    padding: 80px 20px;
+}
+#text7{
+    padding: 80px 20px;
+}
+#hr7{
+    border: none ;
+    border-top: 2px solid white;
+    width: 50px;
+    opacity: 1;
+}
+#img7{
+    width: 95%;
+    margin: auto;
+}
+#button3{
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 0 0 100px;
+    padding: 0 0 5px 0;
+}
+/* FOOTER */
+
+footer{
+    padding-top: 30px;
+    background-color: black;
+}
+#formf{padding-top: 70px;}
+#formf form{
+    margin: 30px 0 0 ;
+}
+#formf form input{
+    margin: 30px 0;
+}
+input :placeholder-shown{
+    column-rule: red;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+}
+#hrf{
+    border: none;
+    border-top: 2px solid white;
+    opacity: 1;
+}
+#copy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#iconf .fa-brands{
+    margin: 10px;
+    color: white !important;
+}
+#colf>a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+#buttonf{
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin: 0 0 50px;
+    padding: 0 0 5px 0;
+}
+#signf{font-size: 1em;}
+
+
+@media only screen and (max-width:768px){
+    #hbutton{display: none;}
+    #logo{
+        width: 100%;
+        float: left;
+    }
+    .navbar-toggler{
+        color: white;
+    }
+    #hcontext{
+        padding: 20% 10px;
+        text-align: center;
+     }
+     
+     #hcontext>button{
+         border: none;
+         width: 280px;
+         height: 60px;
+     }
+     /* ASECTION3 */
+    #asection3{text-align: center;}
+    #hr3{
+        margin: auto;
+    }
+    #p3{font-size: 1.3em;}
+    /* SECTION5 */
+    #img5{
+        height: 95%;
+        width: 50%;
+    }
+     /* SECTION7 */
+    #context7{
+        text-align: center;
+    }
+    #text7{
+        width: 100%;
+        margin: auto;
+    }
+    #hr7{
+        margin: 30px auto;
+
+    }
+    /* FOOTER */
+    #colf{
+        display: flex;
+        flex-direction: column;
+    }
+    #contextf{
+        text-align: center;
+     }
+}
+
+@media only screen and (min-width:768px){
+    /* HEADER */
+    
+    #hbutton{
+        border: none;
+        height: 60px;
+        width: 250px;
+        font: bold 1em arial;
+    }
+    #logo{
+        text-align: center;
+        margin-right: 25%;
+    }
+
+    /* ASECTION1 */
+    #arow1{
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+    /* ASECTION2 */
+    #arow2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    /* ASECTION3 */
+    #asection3{padding: 80px;}
+    /* SECTION5 */
+    #text5{
+        padding: 0 70px 0 0 ;
+    }
+    
+    #img52{display: none;}
+    /* SECTION7 */
+    #context7,#acontext5{
+        text-align: left;
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+    /* FOOTER */
+    #contextf{
+        display: grid;
+        grid-template-columns: 50% 30% 20%;
+        width: 90%;
+        margin: auto;
+    }
+    #colf,#iconf{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:1100px){
+    #text{padding: 0;}
+    #colf,#iconf{
+        display: flex;
+        height: 30%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    #img52{display: none;}
+    #img5{
+        margin: auto;
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+    #hbutton{
+        display: none;
+    }
+    .navbar>.container-fluid{
+        flex-wrap: unset !important;
+        justify-content: space-between !important;
+    }
+    .navbar-toggler{
+        order: 2;
+    }
+    .navbar-toggler-icon{
+        background-color: white;
+    }
+    #logo{
+        display: none;    
+    }
+
+}
